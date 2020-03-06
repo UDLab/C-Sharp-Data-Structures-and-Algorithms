@@ -35,6 +35,8 @@ namespace RedBlackTree
             {
                 Console.Write(node + " ");
             }
+
+            Console.ReadKey();
         }
     }
 }

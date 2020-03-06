@@ -71,6 +71,9 @@ namespace Trees
 
             tree.Remove(150);
             VisualizeTree(tree, "---");
+
+            Console.ReadLine();
+
         }
 
         private static void VisualizeTree(BinarySearchTree<int> tree, string caption)

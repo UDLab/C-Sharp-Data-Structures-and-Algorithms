@@ -48,5 +48,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cable\Cable.csproj">
+      <Project>{e1a831f8-0b4f-42bc-a9ed-73760e96e099}</Project>
+      <Name>Cable</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Graphs\Graphs.csproj">
+      <Project>{176c686e-3ffc-4a5d-b3b7-68b9a97ed39c}</Project>
+      <Name>Graphs</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -20,6 +20,8 @@ namespace SortingAlgorithms
 
             WriteHeader("QUICKSORT");
             QuicksortTest();
+
+            Console.ReadLine();
         }
 
         static void SelectionTest()
