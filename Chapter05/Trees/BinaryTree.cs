@@ -60,7 +60,7 @@ namespace Trees
 
         public int GetHeight()
         {
-            int height = 0;
+            int height = -1; // if tree is empty it has -1 height
             foreach (BinaryTreeNode<T> node in Traverse(TraversalEnum.PREORDER))
             {
                 height = Math.Max(height, node.GetHeight());
