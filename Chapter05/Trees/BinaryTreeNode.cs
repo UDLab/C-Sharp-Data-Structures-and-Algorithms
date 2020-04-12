@@ -24,7 +24,7 @@ namespace Trees
 
         public int GetHeight()
         {
-            int height = 1;
+            int height = 0;
             BinaryTreeNode<T> current = this;
             while (current.Parent != null)
             {
